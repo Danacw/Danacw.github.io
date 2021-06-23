@@ -1,0 +1,67 @@
+/*Navbar Styling*/
+a.navbar-brand{
+    margin-left:10px;
+    padding:10px;
+    background-color:rgb(0, 100, 84);
+    font-family:new century schoolbook;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+/* navbar styling*/
+.navbar{
+    background-color:rgb(0, 100, 84) !important;
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+    font-family: new century schoolbook;
+    font-size: 18px;  
+}
+
+a.nav-item {
+    color: whitesmoke;
+}
+
+/*header styling*/
+h3{
+    color:rgb(0, 100, 84);
+    font-family: new century schoolbook;
+    font-weight: bold;
+    padding-top: 10px;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+h2{
+    font-family: new century schoolbook;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h6{
+    font-family: sans-serif;
+    margin-left:10px;
+    padding:10px;
+}
+
+p{
+    font-family: new century schoolbook;
+    font-size: 13pt;
+}
+
+/* small screen adjustments*/
+@media(max-width:991px){
+    .navbar.bg-light{
+        background-color: rgb(0, 100, 84)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: rgb(0, 100, 84)!important;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
