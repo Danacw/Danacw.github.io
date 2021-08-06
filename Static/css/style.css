@@ -66,10 +66,31 @@ p{
     }
 }
 
-#fname {
+#name {
     width: 40%;
     font:new century schoolbook;
     margin-right: 20px;
+    font-size: 18px;
+}
+
+#email {
+    width: 40%;
+    font:new century schoolbook;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#subject {
+    width: 40%;
+    font:new century schoolbook;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#message {
+    font:new century schoolbook;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 .top_form{
@@ -102,11 +123,7 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color:rgb(0, 100, 84);
-  }
-  
+
   /* Add a background color and some padding around the form
   .container {
     border-radius: 5px;

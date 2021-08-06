@@ -5,12 +5,13 @@
   <title>Contact Me</title>
   <!--Add bootstrap and stylesheet-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- jQuery CDN -->
+    <!-- CDN's -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-  <link rel="stylesheet" href="style.css">
+  <script src="../Danacw.github.io/Static/js/logic.js"></script>
+  <!-- <script src="../Danacw.github.io/processor.php"></script> -->
+  <link rel="stylesheet" href="../Danacw.github.io/Static/css/style.css">
 </head>
 
 <!--Navbar adjustments-->
@@ -50,7 +51,6 @@
             </div>
           </li>
         </ul></div>
-
       </div>
     </nav>
     <br>
@@ -58,35 +58,43 @@
 <body>
 
 
-
+<!--Form Container-->
     <div class="container">
-        <form action="action_page.php" method="POST">
+      <div class="form-group">
+        <!-- <form action="action_page.php" method="POST"> -->
           <br>
           <div style="text-align: center;">
             <div style="font-style: italic;">
             "Find a group of people who challenge and inspire you, spend a lot of time with them, and it will change your life."  – Amy Poehler
             </div>
             <br>
-            I thrive through collaboration. Whether it’s bouncing ideas off the wall, or working out the minuscule details that make up the bigger picture—work is play when we do it well together.
+            I thrive through collaboration. Whether it’s bouncing ideas off the wall, or working out the minuscule details that make up the bigger picture—work feels more like play when we do it together. 
+
           </div>
           <br>
           <br>
           <div class="row">
             <div class="col-lg-12">
               <div class=top_form>
-              <label style="display: flex;" class="caption" for="fname" style="font-family:new century schoolbook; font-size: 18px"></label>
-              <input type="text" id="fname" name="name" placeholder="Name">
-              <br>
-              <label for="fname" style="font-family:new century schoolbook; font-size: 18px"></label><br>
-              <input type="text" id="fname" name="email" placeholder="Email">
+                  <label style="display: flex;" class="caption" for="fname" style="font-family:new century schoolbook; font-size: 18px"></label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                  <br>
+                  <label for="fname" style="font-family:new century schoolbook; font-size: 18px"></label><br>
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email">
             </div>
           </div>
           </div>
           <label for="fname" style="font-family:new century schoolbook; font-size: 18px"></label><br>
-          <input type="text" id="fname" name="subject" placeholder="Subject">
+          <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
           <br>
           <label for="subject" style="font-family:new century schoolbook; font-size: 18px"></label>
-          <textarea id="subject" name="message" style="height:200px" placeholder="Message"></textarea>
-        <input type="submit" value="Submit">
+          <textarea id="message"  class="form-control" name="message" style="height:200px" placeholder="Message"></textarea>
+        <input type="submit" class="btn btn-default" onclick="handleSubmit()" id="submit" value="Submit">
+          <br>
+          <br>
+        <div id="display"></div>
         </form>
       </div>
+    </div>
+  </body>
+</html>
