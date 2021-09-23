@@ -2,7 +2,7 @@
 a.navbar-brand{
     margin-left:10px;
     padding:10px;
-    background-color:rgb(0, 100, 84);
+    background-color:rgb(0, 100, 84) !important;
     font-family:new century schoolbook;
     font-weight: 500;
     font-size: 22px;
