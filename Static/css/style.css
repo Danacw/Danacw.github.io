@@ -24,21 +24,23 @@ a.navbar-brand{
 
 /*header styling*/
 h3{
-    color:rgb(0, 100, 84);
     font-family: new century schoolbook;
+    text-align: center;
     font-weight: bold;
+    text-align: justify;
     padding-top: 10px;
-    font-weight: 550;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(0, 100, 84)
 }
 
 h2{
     font-family: new century schoolbook;
-    text-align: center;
     font-weight: bold;
     padding-top: 10px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 26px;
+    color: rgb(0, 100, 84)
 }
 
 h6{
@@ -48,6 +50,11 @@ h6{
 }
 
 p{
+    font-family: new century schoolbook;
+    font-size: 13pt;
+}
+
+ul{
     font-family: new century schoolbook;
     font-size: 13pt;
 }
