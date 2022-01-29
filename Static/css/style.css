@@ -1,6 +1,6 @@
 /*Body background*/
 body {
-    background: "../Images/green_background";
+    background-color: mintcream !important;
 }
 
 /*Navbar Styling*/
@@ -8,9 +8,8 @@ a.navbar-brand{
     margin-left:10px;
     padding:10px;
     background-color:rgb(0, 100, 84) !important;
-    font-family:new century schoolbook;
-    font-weight: 500;
-    font-size: 22px;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
 }
 
 /* navbar styling*/
@@ -19,48 +18,54 @@ a.navbar-brand{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
-    font-family: new century schoolbook;
-    font-size: 18px;  
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 22px;  
 }
 
-/* a.nav-item {
-    color: whitesmoke;
-} */
+a.navbar-brand{
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+.navbar .nav-brand:hover{
+    color: grey;
+}
 
 /*header styling*/
 h3{
-    font-family: new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
     text-align: justify;
     padding-top: 10px;
-    font-weight: 500;
     font-size: 22px;
     color: rgb(0, 100, 84)
 }
 
 h2{
-    font-family: new century schoolbook;
-    font-weight: bold;
+    font-family: 'Source Serif 4', sans-serif;
     padding-top: 10px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 26px;
     color: rgb(0, 100, 84)
 }
 
 h6{
-    font-family: sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
     margin-left:10px;
     padding:10px;
 }
 
 p{
-    font-family: new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: 200;
     font-size: 13pt;
+
 }
 
 ul{
-    font-family: new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
+    font-weight: 200;
     font-size: 13pt;
 }
 
@@ -80,27 +85,27 @@ ul{
 
 #name {
     width: 40%;
-    font:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     margin-right: 20px;
     font-size: 18px;
 }
 
 #email {
     width: 40%;
-    font:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     margin-right: 20px;
     font-size: 18px;
 }
 
 #subject {
     width: 40%;
-    font:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     margin-right: 20px;
     font-size: 18px;
 }
 
 #message {
-    font:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     margin-right: 20px;
     font-size: 18px;
 }
@@ -112,7 +117,7 @@ ul{
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    font-family:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     font-size: 18px;
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -125,7 +130,7 @@ input[type=text], select, textarea {
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color:rgb(0, 100, 84);
-    font-family:new century schoolbook;
+    font-family: 'Source Serif 4', sans-serif;
     font-size: 18px;
     color: white;
     padding: 12px 20px;

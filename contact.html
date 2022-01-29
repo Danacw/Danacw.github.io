@@ -11,13 +11,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="../Danacw.github.io/Static/js/logic.js"></script>
   <!-- <script src="../Danacw.github.io/processor.php"></script> -->
-  <link rel="stylesheet" type="text/css" href="Static/css/style.css">
+  <link rel="stylesheet" href="Static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 
 <!--Navbar adjustments-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-    <div class="container">
-    <div><a class="navbar-brand text-white" href="index.html">Dana C. Walker</a></div>
+  <div class="container">
+    <div><a class="nav-brand text-white" id="Dana" href="index.html">Dana C. Walker</a></div>
     <div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,29 +49,30 @@
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://danacw.github.io/Movie-Database-API/HTML_Pages/index.html">The Movie Database API Analysis</a>
               <a class="dropdown-item" href="https://danacw.github.io/Web-Design-Challenge/HTML_Pages/index.html">OpenWeatherMap API Analysis</a>
-              <a class="dropdown-item" href="https://danacw.github.io/Javascript-Challenge/">UFO Sightings</a>
-              <a class="dropdown-item" href="https://danacw.github.io/Plotly-Challenge/index.html">Belly Button Biodiversity Dashboard</a>
+              <a class="dropdown-item" href="https://danacw.github.io/UFO-Sightings-Interactive-Database/">UFO Sightings</a>
+              <a class="dropdown-item" href="https://danacw.github.io/Bellybutton-Study-Interactive-Dashboard/">Belly Button Biodiversity Dashboard</a>
+              <a class="dropdown-item" href="https://danacw.github.io/Census-Healthcare-Analysis/D3_data_journalism/index.html">US Census Healthcare Analysis</a>
+              <a class="dropdown-item" href="https://danacw.github.io/USGS-Earthquake-Map/"> USGS Earthquake Map</a>
             </div>
           </li>
         </ul></div>
+
       </div>
     </nav>
     <br>
 
 <body>
-
-
 <!--Form Container-->
     <div class="container">
       <div class="form-group">
         <!-- <form action="action_page.php" method="POST"> -->
           <br>
           <div style="text-align: center;">
-            <div style="font-style: italic;">
+            <p style="font-style: italic;">
             "Find a group of people who challenge and inspire you, spend a lot of time with them, and it will change your life."  – Amy Poehler
-            </div>
+            </p>
             <br>
-            I thrive through collaboration. Whether it’s bouncing ideas off the wall, or working out the minuscule details that make up the bigger picture—work simply works best when it's done together. 
+            <p>I thrive through collaboration. Whether it’s bouncing ideas off the wall, or working out the minuscule details that make up the bigger picture.</p> 
 
           </div>
           <br>
@@ -76,18 +80,18 @@
           <div class="row">
             <div class="col-lg-12">
               <div class=top_form>
-                  <label style="display: flex;" class="caption" for="fname" style="font-family:new century schoolbook; font-size: 18px"></label>
+                  <label style="display: flex;" class="caption" for="fname" style="font-family:'Source Serif 4', sans-serif"; font-size: 18px"></label>
                   <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                   <br>
-                  <label for="fname" style="font-family:new century schoolbook; font-size: 18px"></label><br>
+                  <label for="fname" style="font-family:'Source Serif 4', sans-serif"; font-size: 18px"></label><br>
                   <input type="text" class="form-control" id="email" name="email" placeholder="Email">
             </div>
           </div>
           </div>
-          <label for="fname" style="font-family:new century schoolbook; font-size: 18px"></label><br>
+          <label for="fname" style="font-family:'Source Serif 4', sans-serif"; font-size: 18px"></label><br>
           <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
           <br>
-          <label for="subject" style="font-family:new century schoolbook; font-size: 18px"></label>
+          <label for="subject" style="font-family:'Source Serif 4', sans-serif"; font-size: 18px"></label>
           <textarea id="message"  class="form-control" name="message" style="height:200px" placeholder="Message"></textarea>
         <input type="submit" class="btn btn-default" onclick="handleSubmit()" id="submit" value="Submit">
           <br>
