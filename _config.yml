@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Maggie Wolff"
+title                    : "Dana Walker"
 title_separator          : "-"
-name                     : &name "Maggie Wolff"
-description              : &description "Data Scientist"
-url                      : https://maggiewolff.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name ""
+description              : &description "Data Scientist and Product Analyst"
+url                      : https://danacw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "maggiewolff/maggiewolff.github.io"
+repository               : "danacw/danacw.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -48,6 +48,7 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+github                   : [metadata]
 
 # SEO Related
 google_site_verification :
@@ -80,10 +81,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Maggie Wolff"
-  avatar           : "maggie_wolff_AI_generated.jpg"
-  bio              : "Data Scientist"
-  location         : "Chicago, IL USA"
+  name             : "Dana Walker"
+  avatar           : "me.png"
+  bio              : "Data Scientist and Product Analyst"
+  location         : "California USA"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -96,13 +97,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "maggiewolff"
+  github           : "danacw"
   google_plus      :
   keybase          :
   instagram        : 
   impactstory      : 
   lastfm           :
-  linkedin         : "magwolff"
+  linkedin         : "Danacw"
   medium           :  
   orcid            :  
   pinterest        :
