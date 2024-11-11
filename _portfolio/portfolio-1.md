@@ -1,11 +1,11 @@
 ---
-title: "Recipe Recommender"
-excerpt: "Recommend recipes based on recipe review data from Food.com using the scikit-surprise package"
+title: "Reel Change - A Movie Recommendation System"
+excerpt: "Recommends similar female-directed films, international films, and lowbudget films."
 collection: portfolio
 ---
 
-Project Goal: In the space of online food recipes, there are seemingly endless possibilities of new recipes to try. This project seeks to provide accurate recipe rating predictions and recipe recommendations using various methods.
+Project Goal: This project uses machine learning to recommend a more diverse array of films to users based off their individual preferences.  
 
-Tasks: I was responsible for trying collaborative filtering using item- and user-based neighborhood models and matrix factorization models such as KNN, NMF, SVD, and SVDpp algorithms, and evaluated accuracy by using the target variable of recipe rating.
+Tasks: I used the Scikit Learn machine learning python library to build a similarity matrix using cosine similarity tools with data from The Movie Database. For each endpoint in our final Flask application, data was sorted by the percentage of female directed films, the percentage of foreign language films, and the percentage of lower budget films from 0 to 15 million dollars.
 
-More: [Recipe Recommender on GitHub](https://github.com/maggiewolff/graduate-studies/tree/main/Recipe-Recommender)
+More: [Reel Change on Github](https://github.com/Danacw/DiversityInFilm_DemoDay)

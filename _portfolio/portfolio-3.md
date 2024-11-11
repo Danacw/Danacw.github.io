@@ -1,9 +1,15 @@
 ---
-title: "Life Expectancy"
-excerpt: "Predict life expectancy by country based on other health factors, using the Python scikit-learn package."
+title: "Year Over Year Growth"
+excerpt: "Assessing the year-to-year business growth of a sports ticketing product based on total clients acquired, total sales, and total revenue"
 collection: portfolio
 ---
 
-Project description: Predict life expectancy and vaccination rates by country based on other health factors, using data from the World Health Organization and the Python scikit-learn package.
+Project description: This tool was built to provide sales teams with general business statistics around growth and sales from one year to the next. 
 
-More: [Life Expectancy on GitHub](https://github.com/maggiewolff/graduate-studies/tree/main/Life-Expectancy)
+Statistics around the following are included:
+* Total teams across leagues per year
+* Total revenue per team and per year
+* Total plans sold per team per year
+* Percent demand of benefits per team  
+
+More: [Year over Year Growth on Looker](https://tinyurl.com/52eexbv3)
