@@ -1,6 +1,6 @@
 ---
 title: "Reel Change - A Movie Recommendation System"
-excerpt: "Recommends similar female-directed films, international films, and lowbudget films."
+excerpt: "Recommends similar female-directed films, international films, and low-budget films."
 collection: portfolio
 ---
 

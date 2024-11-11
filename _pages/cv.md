@@ -22,26 +22,31 @@ Work Experience
   *	Boosted engagement rates from the seats page to the checkout page by 12% through A/B tests.
   *	Conducted regression analysis to assess ticket sales against client-specific business rules.   
 
+
 * March 2022 - March 2023: Data Analyst, [Lifeblue](https://lifeblue.com/)
   * Used BigQuery and MySQL to run adhoc SQL queries and aggregate data for Tableau dashboards.
   *	Boosted conversion rates by 2% for a prominent client through attribution modeling in GA4.
   *	Reduced churn by conducting cohort analyses to isolate target markets and user needs. 
   *	Presented analytics dashboards to client’s Chief Marketing Officer using Tableau and Looker Studio. 
   
+
 * October 2019 - November 2020: Account Executive, [Wallrich Creative Communications](https://www.wallrich.us/)
   * Deployed marketing campaigns using Google Campaign Manager for a diverse array of clients in the healthcare, energy, and entertainment industries.
   * Analyzed engagement metrics across social media campaigns with Tableau and Google Analytics.
   *	Developed and presented project scopes, timelines, final websites, and brand guideline to clients.
   
+
 * October 2018 - October 2019: GIS Data Analyst, [Tetra Tech](https://www.tetratech.com/)
   * Designed maps in ArcGIS pro for geotechnical reports and community relations plans. 
   *	Troubleshot issues with geospatial data across projects using advanced SQL queries. 
   *	Maintained integrity of digital government repositories with Army and Navy contracts.
 
+
 * August 2017 - Septemeber 2018: Asset Manager, [Lockheed Martin](https://www.lockheedmartin.com/en-us/index.html)
   * Developed asset management plans for multiple Government contracts.
   *	Built a large database with Excel VBA to track assets and expenditures across projects.
   *	Assessed fiscal impacts of proposed changes in informative reports to key stakeholders.
+
 
 * September 2015 - December 2016: GIS Data Analyst [Democracy Live](https://democracylive.com/)
   * Worked with a multifaceted team to deploy a national elections application.
@@ -55,7 +60,8 @@ Education
 ======
 * Data Analytics Boot Camp Certificate, [University of California, Davis](https://cpe.ucdavis.edu/course/uc-davis-data-analytics-boot-camp), August 2021
   * A 24-week program focused on Python, R, JavaScript, SQL, Tableau, and Machine Learning.
-  * Capstone Project: Analysis and predictive modeling for [UtmostU](https://www.utmostu.org/), the signature program of the Network for Young Adult Success. Examined UtmostU’s data collection efforts, explored which metrics best correlate with or predict success (college degree attainment), and provided recommendations on future data collection and program structure.
+
+
 * B.A. in Business Information Systems, [Unviersity of Washington](https://www.washington.edu/), June 2015
 
 
