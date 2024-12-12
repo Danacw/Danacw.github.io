@@ -62,7 +62,7 @@ Education
   * A 24-week program focused on Python, R, JavaScript, SQL, Tableau, and Machine Learning.
 
 
-* B.A. in Business Information Systems, [Unviersity of Washington](https://www.washington.edu/), June 2015
+* B.A [Unviersity of Washington](https://www.washington.edu/), June 2015
 
 
   
