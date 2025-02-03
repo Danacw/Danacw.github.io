@@ -12,4 +12,4 @@ Statistics around the following are included:
 * Total plans sold per team per year
 * Percent demand of benefits per team  
 
-More: [Year over Year Growth on Looker](https://tinyurl.com/52eexbv3)
+More: [Year over Year Growth on Looker](https://lookerstudio.google.com/reporting/de38b22e-a7c4-4009-9796-d5e17f0885b6)
