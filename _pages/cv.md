@@ -14,12 +14,11 @@ Work Experience
 * March 2022 - November 2024: SaaS Data Scientist Product Analytics, [TurnStyle](https://byturnstyle.com/)
   * A SaaS product built by Lifeblue
   * Built Looker dashboards on ticket sales for clients in the sports and entertainment industry.
-  * Worked with product and data engineering teams to assess data mapping and analysis needs. 
-  * Reformed ETL processes through automized python scripts, SQLAlchemy, and the Google Sheets API.
+  * Worked with product and data engineering teams to assess product goals and data initiatives. 
+  * Reformed ETL processes through automized python scripts, Pandas, SQLAlchemy, and the Google Sheets API.
   * Built segmentation and funnel analyses to measure churn and track micro conversions.
-  * Assisted marketing efforts through Google Analytics 4, Google Tag Manager, and pixel configurations.
+  * Assisted marketing efforts through Google Analytics 4, Google Tag Manager, Google Campaign Manager, and pixel configurations.
   *	Built reports on year over year growth for our CEO, sales teams, and external stakeholders. 
-  *	Boosted engagement rates from the seats page to the checkout page by 12% through A/B tests.
   *	Conducted regression analysis to assess ticket sales against client-specific business rules.   
 
 
