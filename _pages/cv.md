@@ -18,6 +18,7 @@ Work Experience
   * Reformed ETL processes through automized python scripts, Pandas, SQLAlchemy, and the Google Sheets API.
   * Built segmentation and funnel analyses to measure churn and track micro conversions.
   * Assisted marketing efforts through Google Analytics 4, Google Tag Manager, Google Campaign Manager, and pixel configurations.
+  * test
   *	Built reports on year over year growth for our CEO, sales teams, and external stakeholders. 
   *	Conducted regression analysis to assess ticket sales against client-specific business rules.   
 
